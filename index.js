@@ -22,7 +22,7 @@ async function run() {
         const serviceCollection = database.collection('service_Collection');
         const orderCollection = database.collection('order_Collection');
 
-        // POST API
+        //  POST API
         app.post('/services', async (req, res) => {
             const service = req.body;
             console.log('hit the post api', service);
